@@ -6,9 +6,8 @@
     <div style="background-color: #e9643b" class="cube last"></div>
   </div>
   <div id="head">
-      <p style="cursor: pointer;">Идентификация Covid по звуку кашля <a target="_blank" style="color: #004fcf;" href="https://github.com/dee-ex/aicovidvn115m">[Вставить наш гитхаб]</a></p>
-      <img id="logohcmut" src="./assets/hcmut.png">
-      <img id="logouit" src="./assets/uit.png">
+      <p style="cursor: pointer;">Идентификация Covid по звуку кашля <a target="_blank" style="color: #004fcf;"> </a></p>
+      <img style="width: 100px" id="logovk" src="./assets/logovk.png">
   </div>
 
   <div id="up">
@@ -20,7 +19,7 @@
   <div id="down">
       <div id="left">
         <audio controls v-if="url" :key="url">
-          <source :src="url" alt="file đầu vào" type="audio/wav">
+          <source :src="url" alt="input file" type="audio/wav">
         </audio>
       </div>
       <div id="right">
@@ -179,7 +178,7 @@ div {
 #head {
     padding: 10px;
     text-align: center;
-    background-color: #eea35e;
+    background-color: #0077ff;
     font-size: 30px;
     font-weight: bold;
     color: white;
@@ -245,7 +244,7 @@ div {
 
 #left {
     float: left;
-    background: gray;
+    background: #222;
     width: 48%;
     height: 200px;
     margin: 1%;
@@ -256,7 +255,7 @@ div {
 
 #right {
     float: right;
-    background: gray;
+    background: #222;
     width: 48%;
     height: 200px;
     margin: 1%;
