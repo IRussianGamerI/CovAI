@@ -17,7 +17,7 @@
 
 ## 1. Development environment and libraries
 
-Environment needed is Python 3.X (https://www.python.org/) or just using Google colab (https://colab.research.google.com/).
+Environment needed is Python 3.X (https://www.python.org/)
 
 List of necessary stored in `requirements.txt`. For installing, open commandline (Command Prompt, Terminal, ...) and type the following codes (if using Google colab, skip this step):
 ```
